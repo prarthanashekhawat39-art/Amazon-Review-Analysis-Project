@@ -26,6 +26,23 @@ This project performs an end-to-end analysis of Amazon product reviews using Pyt
 - Scikit-learn / SciPy
 
 ## Project Structure
+Amazon-Review-Analysis-Project/
+│
+├── amazon_reviews.csv                  # Raw dataset
+├── amazon_reviews_cleaned.csv          # Cleaned + sentiment-scored dataset
+│
+├── generate_dataset.py                 # Dataset generation script
+├── amazon_review_analysis.py           # Main analysis pipeline (cleaning, sentiment, EDA, charts)
+│
+├── 01_rating_distribution.png          # 18 visualization charts
+├── 02_sentiment_distribution.png
+├── 03_avg_rating_by_category.png
+├── ...
+├── 18_bottom10_worst_products.png
+│
+├── insights.md                         # Key findings & business insights
+├── requirements.txt                    # Python dependencies
+└── README.md
 
 ## How to Run
 ```bash
